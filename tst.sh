@@ -3,7 +3,7 @@
 
 start(){
 	clear
-	echo -e "\e[33m▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄  \e[31mCode: \e[37mYaman Efkar\n\e[33m▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄  \e[31mİnstagram: \e[37myamanefkarr\n\e[33m▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄  \e[31mYoutube: \e[37mYaman Efkar\n\e[33m▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄  \e[31mGitHub: \e[37myamanefkar\n\e[33m▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄  Tool Name: Wordlist-Pluas\n\n\n"
+	echo -e "\e[33m▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄  \e[31mCode: \e[37mRufat.jabrail \n\e[33m▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄  \e[31mİnstagram: \e[37mrufat.jabrail\n\e[33m▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄  \e[31mYoutube: \e[37mOD_Gamers\n\e[33m▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄  \e[31mGitHub: \e[37mOD_Gamers\n\e[33m▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄  Tool Name: Wordlist-Pluas\n\n\n"
 
 
 
@@ -13,7 +13,7 @@ start(){
 	cd Lib/ && rm -rf kayit.php
 	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAdı : ' adi
 	read -p $'\e[31m[\e[32m!\e[31m]\e[37mSoyadı : ' soyad
-	read -p $'\e[31m[\e[32m!\e[31m]\e[37mDoğum Tarihi : ' dogumtarih
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mDoğum Gunu : ' dogumtarih
 	read -p $'\e[31m[\e[32m!\e[31m]\e[37mDoğum Yılı : ' dogumyilii
 	read -p $'\e[31m[\e[32m!\e[31m]\e[37mLakabı : ' lakapi
 	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAnne Adı : ' annei
@@ -22,22 +22,16 @@ start(){
 	sleep 1
 	clear	
 	read -p $'\e[31m[\e[32m!\e[31m]\e[37mSevgilisinin Adı : ' sevgilii
-	read -p $'\e[31m[\e[32m!\e[31m]\e[37mSevgilsinin Soyadı : ' sevsoyad
 	read -p $'\e[31m[\e[32m!\e[31m]\e[37mÇıkma Tarihleri : ' sevtarih
 	read -p $'\e[31m[\e[32m!\e[31m]\e[37mÇıkma Yılı : ' sevyil
 	read -p $'\e[31m[\e[32m!\e[31m]\e[37mŞehir : ' sehiri
 	sleep 1
 	clear
 	read -p $'\e[31m[\e[32m!\e[31m]\e[37mPlaka : ' plaka
-	read -p $'\e[31m[\e[32m!\e[31m]\e[37mTuttuğu Takım : ' takimi
-	read -p $'\e[31m[\e[32m!\e[31m]\e[37mKısa Adı (gs,fb,bjk) : ' kisatakim
-	read -p $'\e[31m[\e[32m!\e[31m]\e[37mTakımın Kuruluş Yılı : ' takimyil
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mTelefon numarasinin son 4 rakamı : ' takimi
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mTelefon numarasının son 2 rakamı : ' kisatakim
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mŞuanki yıl : ' takimyil
 	read -p $'\e[31m[\e[32m!\e[31m]\e[37mTelefon Numarası : ' numara
-	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAnnesinin Telefon Numarası : ' anneteli
-	read -p $'\e[31m[\e[32m!\e[31m]\e[37mBabasının Telefon Numarası : ' babateli
-	read -p $'\e[31m[\e[32m!\e[31m]\e[37mKardeşinin Telefon Numarası : ' kardesteli
-	read -p $'\e[31m[\e[32m!\e[31m]\e[37mSevgilisinin Telefon Numarası : ' sevtel
-	read -p $'\e[31m[\e[32m!\e[31m]\e[37mKurbanın Tc Kimlik Nosu : ' tcno
 	read -p $'\e[31m[\e[32m!\e[31m]\e[37mEski Şifresi : ' eskisifrei
 
 	
@@ -50,7 +44,6 @@ start(){
 	\$baba = '$babai';
 	\$kardes = '$kardesi';
 	\$sevgili = '$sevgilii';
-	\$sevgilisoyad = '$sevsoyad';
 	\$dogumtarihi = '$dogumtarih';
 	\$dogumyili = '$dogumyilii';
 	\$cikmayili = '$sevyil';
@@ -61,12 +54,7 @@ start(){
 	\$takimkisa = '$kisatakim';
 	\$plaka = '$plaka';
 	\$eskisifre = '$eskisifrei';
-	\$tel = '$numara';
-	\$annetel = '$anneteli';
-	\$babatel = '$babateli';
-	\$kardestel = '$kardesteli';
-	\$sevgilitel = '$sevtel';
-	\$tckimlikno = '$tcno';?>" >> kayit.php 
+	\$tel = '$numara';?>" >> kayit.php 
 
 	php olanak-list.php
 	php ad-list.php
@@ -84,13 +72,10 @@ start(){
 	php plaka-list.php
 	php sehir-list.php
 	php sevgili-list.php
-	php sevgilisoyad-list.php
-	php sevgilitel-list.php
 	php soyad-list.php
 	php takim-list.php
 	php takimkisa-list.php
 	php takimtarihi-list.php
-	php tckimlikno-list.php
 	php tel-list.php
 
 	echo -e '\e[32mDosyanız Hazır : \e[37mwordlist.txt'
@@ -125,7 +110,7 @@ else
 apt install php -y 
 clear
 cd Lib/
-echo "Bu Tool YamanEfkar Tarafından Kodlandı...." >> ok.txt
+echo "Bu Tool OD_Gamers Tarafından Kodlandı...." >> ok.txt
 cd ..
 bash tst.sh	
 fi
